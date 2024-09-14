@@ -126,6 +126,16 @@ def conditions(n):
     #I gave up on this one for a bit but randomly had a brief vision of how to
     #approach this and was able to do it without copying an online solution, so I'm glad
 
+def check_many_primes(lbound, ubound):
+    """
+    parameters must be integers
+    """ 
+    for i in range(lbound, ubound):
+        num = i**2 - 16
+        question8(num)
+
+# check_many_primes(1, 300)
+
 # question8(11)
 
 # 9. Write a program that prints the ASCII values of all uppercase letters using a for loop. 
